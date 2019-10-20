@@ -12,4 +12,5 @@ public interface GoodsDao {
     int add(Goods goods); //新增商品
     int deleteById(String[] ids); //批量删除(逻辑删除)
     //测试一下冲突嘛！
+    //演示失败~
 }
